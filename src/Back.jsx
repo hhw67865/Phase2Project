@@ -1,15 +1,21 @@
-function Back () {
+import WorkoutCard from './WorkoutCard'
+
+function Back ({workoutData, handleAddRoutine}) {
+    const backWorkouts = workoutData.filter(workout=>{
+        return workout.type==="back"
+    })
+    const backArray = backWorkouts.map((workout)=>{
+        return (
+            <WorkoutCard handleAddRoutine={handleAddRoutine} key={workout.id} workout={workout}/>
+        )
+    })
+
     return (
         <>
             <h1>Back Workouts</h1>
-            <select name="back" id="back">
-                <option value="upperback">Upper back</option>
-                <option value="lowerback">Lower back</option>
-
-            </select> <br />
             <input type="search" name="search"/>
             <div className="workoutList">
-
+                {backArray}
             </div>
         </>
     )

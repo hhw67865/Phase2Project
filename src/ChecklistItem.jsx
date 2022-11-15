@@ -1,10 +1,18 @@
+import {useState} from 'react'
 
-function ChecklistItem ({workoutName}) {
+
+function ChecklistItem ({eachRoutine,deleteRoutine}) {
+    
+
+    function handleDelete () {
+        deleteRoutine(eachRoutine.id)        
+    }
+
     return (
         <div>
-            <input type="checkbox" id={workoutName} name={workoutName} value="checked" />
-            <label for={workoutName}>{workoutName} </label>
-            <button>X</button>
+            <input type="checkbox" id={eachRoutine.workoutName} name={eachRoutine.workoutName} value="checked" />
+            <label htmlFor={eachRoutine.workoutName}>{eachRoutine.workoutName} </label>
+            <button onClick={handleDelete}>X</button>
         </div>
     )
 }

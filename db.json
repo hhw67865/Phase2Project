@@ -1,4 +1,5 @@
 {
+  "routineList": [],
   "workouts": [
     {
       "id": 1,
@@ -72,7 +73,6 @@
       "image": "",
       "instructions": "Lie on your back on the floor and hold one dumbbell overhead with both hands.\nPress the weight over your chest, then reach back over your head, bending your elbows only slightly.\nContinue until you feel a stretch in your lats, then pull the dumbbell back over your chest.\nTake a deep breath every time you lower the dumbbell behind you."
     },
-
     {
       "id": 11,
       "type": "upperBody",
@@ -109,7 +109,7 @@
       "id": 15,
       "type": "upperBody",
       "muscleGroup": "shoulders",
-      "workoutName": " Reverse Cable Crossover",
+      "workoutName": "Reverse Cable Crossover",
       "image": "https://manofmany.com/wp-content/uploads/2021/07/8-Reverse-Cable-Crossover.jpg",
       "instructions": "Grab the handle from the machine on your right using your left hand, and vice versa.\nDraw the cables in so that they form a cross on your chest, keeping your elbows fixed and your arms even with your shoulders.\nSlightly lean forward before lifting the weights on each respective machine in a cross-like fashion, stretching your arms as far as the cables go before bringing them in.\nIf possible, increase the weight with each subsequent set."
     },
@@ -125,7 +125,7 @@
       "id": 17,
       "type": "upperBody",
       "muscleGroup": "shoulders",
-      "workoutName": " Cable Face Pulls",
+      "workoutName": "Cable Face Pulls",
       "image": "https://manofmany.com/wp-content/uploads/2021/07/12-Cable-Face-Pulls.jpg",
       "instructions": "Stand facing the cable machine. \nSet the cable framework to around eye height.\nUsing the rope connection, clutch each end and raise your arms to shoulder height.\nBring your elbows in and pull the cable towards your face.\nHold and tense your back\nRelease slowly.\nRepeat"
     },
@@ -149,7 +149,7 @@
       "id": 20,
       "type": "upperBody",
       "muscleGroup": "shoulders",
-      "workoutName": " Reverse Pec Deck Fly",
+      "workoutName": "Reverse Pec Deck Fly",
       "image": "https://manofmany.com/wp-content/uploads/2021/07/4-Reverse-Pec-Deck-Fly-Bodybuilding.jpg",
       "instructions": "Face the machine, and position the seat so that the handles are at shoulder level on either side.\nNext, hold the handles with your palms facing inward.\nTighten your torso and extend your arms out to the side, pushing through all the way.\nResponsibly return to the starting position.Repeat."
     },
