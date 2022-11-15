@@ -1,0 +1,717 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "type": "upperBody",
+      "muscleGroup": "chest",
+      "workoutName": "Bench Press",
+      "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/barbell-wide-grip-muscles.png",
+      "instructions": "Grasp the bar just outside shoulder-width and arch your back so there’s space between your lower back and the bench.\nPull the bar out of the rack and lower it to your sternum, tucking your elbows about 45° to your sides. \nWhen the bar touches your body, drive your feet hard into the floor and press the bar back up."
+    },
+    {
+      "id": 2,
+      "type": "upperBody",
+      "muscleGroup": "chest",
+      "workoutName": "Incline Cable Flye to Chest Press",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2021/10/InclineCableFlyeChestPress.jpg?w=700&quality=86&strip=all",
+      "instructions": "Adjust a bench 45 degrees to the incline position in the middle of a cable machine with handle attachments to the lowest setting on either side.\nGrasp handles, then sit with arms extended, slight bend in elbows, palms facing each other. Contract pecs to bring hands together. Squeeze at the top, then slowly lower.\nPerform prescribed reps then change hand position to a wide incline cable chest press."
+    },
+    {
+      "id": 4,
+      "type": "upperBody",
+      "muscleGroup": "chest",
+      "workoutName": "Medium Cable Flye",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2017/04/medcable.jpg?w=700&quality=86&strip=all",
+      "instructions": "Attach a D-handle to both cable pulley attachments. Grab one in each hand and walk out a few feet so there’s tension in the cables.\nKeeping elbows up and slightly bent, fists parallel to shoulders, press hands around and forward to meet each other, like you’re hugging a tree. Reverse for 1 rep."
+    },
+    {
+      "id": 5,
+      "type": "upperBody",
+      "muscleGroup": "chest",
+      "workoutName": "High Peak Pushup",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2017/04/highpeakpushup.jpg?w=700&quality=86&strip=all",
+      "instructions": "Situate four yoga blocks or small plyo boxes under hands and feet, with hands wider than traditional pushup position.\nDrop chest below hand level while maintaining a straight back, then press back up into plank position. As you get stronger, bring blocks under feet slightly closer together."
+    },
+    {
+      "id": 6,
+      "type": "upperBody",
+      "muscleGroup": "chest",
+      "workoutName": "Med Ball Pushup",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2017/04/medballpushup.jpg?w=700&quality=86&strip=all",
+      "instructions": "Assume pushup position on a medicine or Swiss ball with fingers pointed down the sides.\nThe shoulder blades should be pushed away from each other. Lower yourself to where the chest barely touches the ball.\nMaintain control of the ball as you push as far away from the ball as possible. Keep your body straight from head to ankle."
+    },
+    {
+      "id": 7,
+      "type": "upperBody",
+      "muscleGroup": "chest",
+      "workoutName": "Wide-Grip Dips",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/_main2_dips.jpg?w=700&quality=86&strip=all",
+      "instructions": "Keeping your arms straight, hold your body up on two parallel bars that are a couple inches wider than shoulder-width apart.\nDescend until your chest is roughly in line with your hands, then push back up to the starting position, locking out your elbows.\nDescend while keeping your torso slightly horizontal to the ground, which emphasizes the chest muscles over your triceps."
+    },
+    {
+      "id": 8,
+      "type": "upperBody",
+      "muscleGroup": "chest",
+      "workoutName": "Wide-Grip Pushup",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/wide-grip-push-up-chest-main.jpg?w=700&quality=86&strip=all",
+      "instructions": "Place your hands wider than shoulder width.\nPerform pushups."
+    },
+    {
+      "id": 9,
+      "type": "upperBody",
+      "muscleGroup": "chest",
+      "workoutName": "One-Armed Medicine Ball Pushup",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/lock-off-chest-3-exercise_landscape.jpg?w=700&quality=86&strip=all",
+      "instructions": "Get into a pushup position resting your right hand on the medicine ball and left hand on the floor.\nLower your body until your chest is just above the floor, then push back up."
+    },
+    {
+      "id": 10,
+      "type": "upperBody",
+      "muscleGroup": "chest",
+      "workoutName": "Pullover",
+      "image": "",
+      "instructions": "Lie on your back on the floor and hold one dumbbell overhead with both hands.\nPress the weight over your chest, then reach back over your head, bending your elbows only slightly.\nContinue until you feel a stretch in your lats, then pull the dumbbell back over your chest.\nTake a deep breath every time you lower the dumbbell behind you."
+    },
+
+    {
+      "id": 11,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": "Barbell Overhead Shoulder Press",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/1-Barbell-Overhead-Shoulder-Press.jpg",
+      "instructions": "Put your feet at shoulder-width, and engage your core and glutes as you hold a barbell at your shoulders, palms facing forward.\nNext, push the bar upward and squeeze your shoulder blades together at the peak.\nLower steadily and carefully.\nAt no point should your lower back arch — keep your core engaged to stop this happening."
+    },
+    {
+      "id": 12,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": "Seated Dumbbell Shoulder Press",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/2-Seated-Dumbbell-Shoulder-Press.jpg",
+      "instructions": "Sit on a low-back bench and hold a dumbbell in each hand at shoulder level, palms facing forward.\nKeeping your head and spine perfectly straight, lift the dumbbells overhead toward one another, stopping just short of having them touch at the top.\nHold the position for a few seconds and then carefully reverse course. Repeat.\nAgain, it’s important to keep your core engaged during this movement — your lower back shouldn’t arch."
+    },
+    {
+      "id": 13,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": "Bent-Over Dumbbell Lateral Raise",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/5-Bent-Over-Dumbbell-Lateral-Raise-Koboxing-Forum.jpg",
+      "instructions": "Start with a dumbbell in each hand (not so heavy you can’t control the weight during the movement), keeping your chest up, your back flat, your knees slightly bent, and your eyes focussed toward a fixed point on the floor.\nNow, bend over until your core is basically parallel with the ground, and hang the dumbbells directly underneath you, all while keeping your elbows in a slightly bent position.\nNext, raise both dumbbells up and out to your sides, forming an arc until your upper arms are even with your torso.\nTake a brief pause at the top before lowering the dumbbells back into starting position. Repeat."
+    },
+    {
+      "id": 14,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": "Dumbbell Lateral Raise",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/6-Dumbbell-Lateral-Raise.jpg",
+      "instructions": "Start in the standing position, keeping your feet shoulder-width apart, your abs tight, your chest up, your head straight, and your shoulders pinched. Hold the dumbbells at either side, retaining a neutral grip.\nNow, here comes the hard part. Using just your shoulders and arms, raise the dumbbells a notch above shoulder level.\nHold for a moment.\nLower the dumbbells back to the starting position — with control. Don’t let them just drop to your sides. Repeat."
+    },
+    {
+      "id": 15,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": " Reverse Cable Crossover",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/8-Reverse-Cable-Crossover.jpg",
+      "instructions": "Grab the handle from the machine on your right using your left hand, and vice versa.\nDraw the cables in so that they form a cross on your chest, keeping your elbows fixed and your arms even with your shoulders.\nSlightly lean forward before lifting the weights on each respective machine in a cross-like fashion, stretching your arms as far as the cables go before bringing them in.\nIf possible, increase the weight with each subsequent set."
+    },
+    {
+      "id": 16,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": "One-Arm Cable Lateral Raise",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/9-One-Arm-Cable-Lateral-Raise-Bodybuilding.jpg",
+      "instructions": "Stand sideways to the cable machine, keeping your feet shoulder-width apart. Using the hand that’s opposite the pulley, grab the D-handle.\nWith your abs tight and your shoulders back, raise the cable using just the motion of your arms and shoulders.\nTake your arm just past shoulder level and hold for a few seconds before slowly returning to the original position.\nRepeat as necessary and then switch sides. Your hand and elbow should move in conjunction with one another the entire time."
+    },
+    {
+      "id": 17,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": " Cable Face Pulls",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/12-Cable-Face-Pulls.jpg",
+      "instructions": "Stand facing the cable machine. \nSet the cable framework to around eye height.\nUsing the rope connection, clutch each end and raise your arms to shoulder height.\nBring your elbows in and pull the cable towards your face.\nHold and tense your back\nRelease slowly.\nRepeat"
+    },
+    {
+      "id": 18,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": "Standing Barbell Shrugs",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/10-Standing-Barbell-Shrugs-bodybuilding.jpg",
+      "instructions": "Keeping your feet even with your shoulders, bend your knees and pick up the barbell, bringing it to waist level.\nNext, lift your shoulders up and back (i.e. “shrug” or pinch them), squeezing for about five seconds before releasing them.\nKeep the movements restricted to your shoulders, meaning your arms should be relatively loose and the barbell should only raise and lower very slightly."
+    },
+    {
+      "id": 19,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": "Push Press",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/Push-Press.jpg",
+      "instructions": "Start by resting the barbell atop your upper chest, with your palms up, your elbows pointed out, and your upper arms parallel to the floor.\nLower your hips and bend your knees into a quarter squat and then rise upwards with ample thrust, fully extending your arms and elbows as you lift the bar over your head.\nHold for a moment before returning to the starting position for the next rep.\nKeep your core and glutes engaged, especially at the top of the movement, to protect your lower back."
+    },
+    {
+      "id": 20,
+      "type": "upperBody",
+      "muscleGroup": "shoulders",
+      "workoutName": " Reverse Pec Deck Fly",
+      "image": "https://manofmany.com/wp-content/uploads/2021/07/4-Reverse-Pec-Deck-Fly-Bodybuilding.jpg",
+      "instructions": "Face the machine, and position the seat so that the handles are at shoulder level on either side.\nNext, hold the handles with your palms facing inward.\nTighten your torso and extend your arms out to the side, pushing through all the way.\nResponsibly return to the starting position.Repeat."
+    },
+    {
+      "id": 21,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "Incline Bicep Curl",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/01.gif?resize=768:*",
+      "instructions": "Sit on an incline bench and hold a dumbbell in each hand at arm's length.\nUse your biceps to curl the dumbbell until it reaches your shoulder, then lower them back down to your side and repeat."
+    },
+    {
+      "id": 22,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "Concentration Curl",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/02.gif?resize=768:*",
+      "instructions": "Sit down on the bench and rest your right arm against your right leg, letting the weight hang down.\nCurl the weight up, pause, and then lower.\nRepeat with the other arm."
+    },
+    {
+      "id": 23,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "Twisting Dumbbell Curl",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/04.gif?resize=768:*",
+      "instructions": "Hold a dumbbell in each hand at your side with palms facing each other.\nUse your bicep to curl the dumbbells up to your shoulders alternately, twisting your palms to face your chest as you lift them.\nSlowly lower the dumbbells back down to your side and repeat."
+    },
+    {
+      "id": 24,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "Underhand Seated Row",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/05.gif?resize=768:*",
+      "instructions": "Bend your knees and hold the bar with an underhand grip, shoulder-width apart.\nLean back slightly, keeping your back straight, then use your back muscle to drive the bar towards your belly button.\nReturn the bar to starting position and repeat."
+    },
+    {
+      "id": 25,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "Reverse Curl Straight Bar",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/reversecurlgif.gif?resize=768:*",
+      "instructions": "Stand and grip a barbell at shoulder width with an overhand grip.\nFlex the elbows and rotate the barbell upwards, only using your forearms, until your palms face out and the barbell is in line with your shoulders.\nReturn it back down slowly and repeat."
+    },
+    {
+      "id": 26,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "Leant-forward EZ Bar Curl",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/leanEZgif.gif?resize=768:*",
+      "instructions": "Hold the EZ bar in front of your thighs with an underhand, shoulder-width grip.\nLean forward slightly, so your torso's around 30 degrees to your hips.\nAs you breathe in, curl the bar until your hands are at your shoulders.\nSqueeze your biceps, then lower under control."
+    },
+    {
+      "id": 27,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "Straight Barbell Palms-up Wrist Curl",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/palmsupwristcurl.gif?resize=768:*",
+      "instructions": "Sit on a bench and hold a barbell with your palms facing up.\nRest your forearms on your knees and lower the bar towards the floor as far as possible.\nCurl your wrist upward, pause, then slowly lower."
+    },
+    {
+      "id": 28,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "Prone Dumbbell Spider Curl",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/08.gif?resize=768:*",
+      "instructions": "Lie on an incline bench and hold a dumbbell in each hand, letting them hang underneath your shoulders.\nUse your biceps to curl the dumbbells towards your shoulders.\nSlowly return to starting position and repeat."
+    },
+    {
+      "id": 29,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "One Arm Tricep Extension (seated)",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/how-to-do-the-single-arm-dumbbell-tricep-extension.gif?resize=768:*",
+      "instructions": "Hold a dumbbell in one hand directly behind your head, with your elbow bent and pointed towards the ceiling.\nExtend through your elbow until your arm is straight and the dumbbell is directly above you.\nLower your arm back to starting position and repeat."
+    },
+    {
+      "id": 30,
+      "type": "upperBody",
+      "muscleGroup": "arms",
+      "workoutName": "Tate Press",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/07.gif?resize=768:*",
+      "instructions": "Lie on a bench and hold two dumbbells directly above your shoulders.\nSlowly bend your elbows to bring the dumbbells to your chest, so your palms face outwards and the dumbbells point towards the ceiling.\nRaise the dumbbells back to starting position and repeat."
+    },
+    {
+      "id": 31,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": "Ab Wheel Rollout",
+      "image": "https://manofmany.com/wp-content/uploads/2019/03/10-Best-Core-Exercises-for-Men-Ab-Wheel-Rollout.jpg",
+      "instructions": "Grab yourself an ab wheel and kneel on the floor. Keep the wheel dead-center beneath your shoulders, tighten your abs, and roll forward until you lose tension at your core. Now roll back into the starting position. Continue this process until you feel like you can’t perform the exercise without breaking form. You’ll feel the burn from this one right away, and that’s a good thing."
+    },
+    {
+      "id": 32,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": "Medicine Ball Slam",
+      "image": "https://manofmany.com/wp-content/uploads/2019/03/10-Best-Core-Exercises-for-Men-Medicine-Ball-Slam.jpg",
+      "instructions": "You’ll need a “slam” ball for this one, as it brings more bounce than your standard medicine ball (which brings no bounce at all). Keeping your knees at a slight bend, extend your arms and lift the ball directly over your head. Next, rise onto the balls of your feet, employing your core muscles as you slam the ball toward the ground, bending forward at the waist. Catch the ball as it bounces back up and repeat the motion. Your working not just the abs, but your shoulders as well."
+    },
+    {
+      "id": 33,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": "Three-Point Plank",
+      "image": "https://manofmany.com/wp-content/uploads/2019/03/10-Best-Core-Exercises-for-Men-Three-Point-Plank.jpg",
+      "instructions": "The thing with basic planks is that your body adjusts to them rather quickly, so you should incorporate variables for maximum yield. One way to achieve this is by performing a three-point plank, which involves removing a contact point from the floor. Get into the plank position, keep your spine perfectly straight, raise a foot off the ground, and hold it in place. Avoid tilting in either direction and switch legs every 5-10 seconds."
+    },
+    {
+      "id": 34,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": "Deadbug",
+      "image": "https://media.hearstapps.com/loop/video/deadbug-2-1562621376.mp4",
+      "instructions": "Lie on your back with your arms extended over your chest and legs bent 90 degrees (knees above hips).\nKeep your low back pressed to the floor, brace your core, then slowly and simultaneously extend and lower your right leg until your heel nearly touches floor and your left arm until your hand nearly touches floor overhead.\nPause, then return to start and repeat with the opposite leg and arm. That’s one rep. Complete 10 reps."
+    },
+    {
+      "id": 35,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": "Glute Bridge March",
+      "image": "https://media.hearstapps.com/loop/video/glute-bridge-march-2-1562621474.mp4",
+      "instructions": "Lie on your back with your legs bent, heels under knees, feet flat on the floor.\nExtend your arms over your chest, palms facing. Raise your hips so your body forms a straight line from your shoulders to your knees.\nBrace your abs and lift your right knee over your hip, maintaining the 90-degree angle of that leg.\nHold for a moment, then lower your right foot. Repeat with the left. That's one rep. Complete 12 reps."
+    },
+    {
+      "id": 36,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": "Side Plank",
+      "image": "https://media.hearstapps.com/loop/video/side-plank-2-1562621501.mp4",
+      "instructions": "Lay on your side with your right forearm flat on the floor, elbow under your shoulder, and both legs extended, forming a straight line from your head to your feet. (Feet can either be staggered for more stability, or stacked for more of a challenge.)\nEngage your core and lift your hips off the floor. Hold for 30 seconds on each side."
+    },
+    {
+      "id": 37,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": " Bird Dog",
+      "image": "https://media.hearstapps.com/loop/video/bird-dog-2-1562622220.mp4",
+      "instructions": "Get on all fours with your wrists stacked directly under your shoulders and knees under hips.\nKeeping your back flat, core engaged, and a slight bend in your elbows, extend your left arm out in front of you at shoulder height and your right leg straight behind you at hip height.\nWith control, bring your extended leg back underneath you, stopping at your hips, and tap that knee with your opposite hand.\nLower your leg and arm down, then repeat on the opposite side. That's one rep. Complete 10 reps."
+    },
+    {
+      "id": 38,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": "Cable Crunches",
+      "image": "https://www.womenfitness.net/img2017/components/Cable-Crunches.jpg",
+      "instructions": " Grab the rope and lower yourself down to your knees.\nKeeping your hands above your head, crunch your body towards the floor until you are approximately 90 degrees from vertical.\nUnder control, raise yourself back to the starting position.\nRepeat this motion until you have completed your desired reps."
+    },
+    {
+      "id": 39,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": "Kettlebell Deadbug Pullover",
+      "image": "https://media.hearstapps.com/loop/video/kettlebell-deadbug-pullover-1562622350.mp4",
+      "instructions": "Lie on your back with your legs bent at 90 degrees (knees over hips) and arms extended over your chest holding a kettlebell with both hands. That's your start position.\nPress low back in to floor, brace your core, then slowly and simultaneously extend and lower your right leg until your heel nearly touches floor while you lower the kettlebell overhead until it nearly touches the floor behind you.\nPause, then return to start and repeat on the opposite side. That’s one rep. Complete eight reps."
+    },
+    {
+      "id": 40,
+      "type": "core",
+      "muscleGroup": "core",
+      "workoutName": "Kettlebell Bridge Pullover",
+      "image": "https://media.hearstapps.com/loop/video/kettlebell-bridge-pullover-1562622327.mp4",
+      "instructions": "Lie on your back with your knees bent and your feet flat on the floor. Hold a kettlebell in both hands, resting on top of your chest.\nRaise your hips so your body forms a straight line from your shoulders to your knees.\nLift the kettlebell into the air over your chest, then slowly lower it behind you until it nearly touches the ground without arching your back or splaying your rib cage.\nEngage your core and return the kettlebell over your chest. That's one rep. Complete eight reps."
+    },
+    {
+      "id": 41,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": " Kettlebell Swings",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/kettlbell-swing.gif?resize=768:*",
+      "instructions": "Place a kettlebell a couple of feet in front of you.\nStand with your feet slightly wider than shoulder-width apart and bend your knees to lean forward and grab the handle with both hands.\nWith your back flat, engage your lats to pull the weight between your legs (be careful with how deep you swing) then drive your hips forward and explosively pull the kettlebell up to shoulder height with your arms straight in front of you.\nReturn to the start position and repeat without pauses."
+    },
+    {
+      "id": 42,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": "Barbell Deadlift",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/deadlift.gif?resize=768:*",
+      "instructions": "Squat down and grasp a barbell with your hands roughly shoulder-width apart. Keep your chest up, pull your shoulders back and look straight ahead as you lift the bar. Focus on taking the weight back onto your heels and keep the bar as close as possible to your body at all times. Lift to thigh level, pause, then return under control to the start position.\nThis content is imported from Instagram. You may be able to find the same content in another format, or you may be able to find more information, at their web site."
+    },
+    {
+      "id": 43,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": " Pull-Up",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/how-to-do-a-pull-up.gif?resize=768:*",
+      "instructions": "Grab the handles of the pull-up station with your palms facing away from you and your arms fully extended. Your hands should be around shoulder-width apart. Squeeze your shoulder blades together, exhale and drive your elbows towards your hips to bring your chin above the bar. Lower under control back to the start position."
+    },
+    {
+      "id": 44,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": "Dumbbell Single-arm Row",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/dumbbell-single-arm-row.gif?resize=768:*",
+      "instructions": "Head to a flat bench and place your right hand against it under your shoulder, keeping your arm straight. Rest your right knee on the bench and step your other leg out to the side. With your free hand grab a dumbbell off the floor and row it up to your side until your upper arm is parallel with the floor. Lower slowly back to the floor and repeat."
+    },
+    {
+      "id": 45,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": "Chest-supported Dumbbell Row",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/dumbbell-row.gif?resize=768:*",
+      "instructions": "Lie face down on the bench with your feet other side to keep you stable. Hang the dumbbells beneath you using a neutral grip. Keep your head up and bring your shoulder blades together as you row the weights towards your chest. Lower to the starting position under control."
+    },
+    {
+      "id": 46,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": "Inverted Row",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/invertedrow.gif?resize=768:*",
+      "instructions": "Set up a bar in a rack at waist height. Grab it with a wider than shoulder-width overhand grip and hang underneath. Position yourself with heels out in front of you and arms fully extended. Your body should be straight from shoulders to ankles. Flex at the elbows to pull your chest up to the bar. Lower yourself back to the start position under control."
+    },
+    {
+      "id": 47,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": "Lat Pulldowns",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/latpull.gif?resize=768:*",
+      "instructions": " Kneel in front of the cable machine and face away. Grab the bar with your palms facing away from you, shoulder-width apart. Lean back slightly and push your chest out. Pull the bar down to your chest, then return slowly to the start position. Your torso should remain still throughout."
+    },
+    {
+      "id": 48,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": "Single-arm T-Bar Rows",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/meadows-row.gif?resize=768:*",
+      "instructions": "Add weight to one end of a barbell. Bend forward until your torso is almost parallel to the floor and keep your knees slightly bent. Grab the bar with one arm just behind the plates. Pull the bar straight up with your elbow in until the plates touch your chest and squeeze your back muscles at the top of the move. Slowly lower to the starting position and repeat without letting the plates touch the floor."
+    },
+    {
+      "id": 49,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": "Renegade Row",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/renegaderowdb.gif?resize=768:*",
+      "instructions": "Get into a press-up position with your hands on the handles of two dumbbells. Keeping your core tensed, row the right dumbbell up to your abs then return to the start position. Repeat with the left dumbbell to complete one rep."
+    },
+    {
+      "id": 50,
+      "type": "back",
+      "muscleGroup": "back",
+      "workoutName": "Superman",
+      "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/superman.gif?resize=768:*",
+      "instructions": "Lie facedown on a mat with your arms extended in front of you and your legs extended behind you. Engaging your glutes and lower back, raise your arms, legs, and chest off the floor. Hold for a count, then slowly return to the starting position."
+    },
+    {
+      "id": 51,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Lying Leg Curl",
+      "image": "https://barbend.com/wp-content/uploads/2021/06/Lying-Leg-Curl.jpg",
+      "instructions": "Lie face down on the leg curl machine. Slip the backs of your ankles under the pad and keep your hips down. Draw the belly button inwards to avoid movement compensations. Curl the weight towards your glutes. Lower slowly to maximize time under tension during the eccentric portion. Rinse and repeat."
+    },
+    {
+      "id": 52,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Hamstring Slide",
+      "image": "https://barbend.com/wp-content/uploads/2021/06/Hamstring-Slide.jpg",
+      "instructions": "Lie down on your back with your legs bent at 90 degrees and your heels underneath your knees. The heels should be on a pair of workout sliders. (If you’re doing this at home, you can place your heels on a pair of socks on a hardwood floor.) Squeeze your glutes to raise your hips and lower your heels away from your body until your legs are almost fully extended. Then flex your hamstrings to bring your heels back underneath your knees and repeat."
+    },
+    {
+      "id": 53,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Razor Curl",
+      "image": "https://barbend.com/wp-content/uploads/2021/06/Nordic-Hamstring-Curl.jpg",
+      "instructions": "Have a training partner hold your feet or use a barbell/piece of equipment to anchor your lower body. Slight flex your hips and hold this position for the entire exercise. Fall forward while controlling the eccentric and lightly touch the ground. Use your hands to assist on the concentric if you’re starting to help make it easier."
+    },
+    {
+      "id": 54,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Glute Bridge",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/15-workouts-glutebridge-main-new.jpg?w=700&quality=86&strip=all",
+      "instructions": "Lie down with your back, palms, and feet flat on the floor, knees bent.\nPress both feet into the ground as you raise both hips up toward the ceiling.\n“At the top of the movement, squeeze your glutes together to ensure you don’t arch or drop your lower back,” Ibrahim says.\nHold at the top for a 2-second count, then lower and repeat."
+    },
+    {
+      "id": 55,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Single-leg Glute Bridge",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/1280-single-leg-glute-bridge.jpg?w=700&quality=70&strip=all",
+      "instructions": "Lie down with your back, palms, and feet flat on the floor, knees bent.\nBring one leg off the floor. Keep the knee bent and flex your toes toward your head.\nHold this position as you press your working leg’s foot into the ground as you raise your hips, evenly, toward the ceiling.\nKeep your back straight, and engage your glutes at the top of the movement to prevent your lower back from sagging.\nHold at the top for a 2-second count, then lower and repeat.\nComplete all reps for one side, then repeat on the other."
+    },
+    {
+      "id": 56,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Bench Hip Thrust",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/_main2_hipthrust.jpg?w=900&quality=86&strip=all",
+      "instructions": "Prop your upper back and shoulders on a bench, and hug your arms across your chest, Ibrahim says.\nPlace your feet flat on the floor, sitting your hips low.\nDrive both feet into the ground as you press both hips up toward the ceiling.\nAt the top of the movement, squeeze your glutes and hold for two seconds. Lower, and repeat.\nUse just your bodyweight, or add weight for a greater challenge."
+    },
+    {
+      "id": 57,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Single-leg Bench Hip Thrust",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/single_leg_hip_thrust_main_0.jpg?w=700&quality=86&strip=all",
+      "instructions": "Prop your upper back and shoulders on a bench, and hug your arms across your chest.\nPlace your feet flat on the floor, sitting your hips low.\nLift one leg, bending your knee and flexing your toes toward your head.\nDrive your anchor foot into the ground as you press both hips up toward the ceiling.\nAt the top of the movement, squeeze your glutes and hold for two seconds.\nLower, and repeat all reps on one side, then switch.\nUse just your bodyweight, or add weight for a greater challenge."
+    },
+    {
+      "id": 58,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Swiss Ball Hamstring Curl",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/1280-hamstring-curl-exercise-ball.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Position a Swiss ball in front of your feet.\nLie down with your back and palms flat on the floor.\nPlace your heels on top of the ball, then press your hips and glutes off the floor.\nKeep your back straight and abs engaged.\nDig your heels into the ball as you curl it toward your glutes.\nReverse the motion, and press the Swiss ball away from your glutes to the start position."
+    },
+    {
+      "id": 59,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Dumbbell Romanian Deadlift",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/15-best-exercises-dumbbell-romanian-deadlift.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Stand up tall with one dumbbell in each hand, palms facing you.\nEngage your abs, and hinge your hips back as you slowly lower the dumbbells toward the middle of your shins.\nStand back up, then squeeze your glutes at the top."
+    },
+    {
+      "id": 60,
+      "type": "lowerBody",
+      "muscleGroup": "hamstring",
+      "workoutName": "Nordic Hamstring Curl",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2017/12/hamstringcurl.jpg?w=700&quality=86&strip=all",
+      "instructions": "Position both knees roughly hip-width apart, and place both knees on a mat or pad for comfort.\nDrive your toes into the ground, and keep your heels in a secure position (ask a gym partner or place them under a comfortable and secure anchor point).\nFor the entire duration of the exercise, keep your core engaged and maintain a tall position from your knees through your hips and up toward your shoulders to avoid arching at your lower back.\nSlowly lower yourself down toward the ground in front of you in a slow and controlled fashion for three seconds.\nOnce three seconds have elapsed, press your hands down into the ground to get yourself back up to the starting position."
+    },
+    {
+      "id": 61,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Diagonal Walking Lunges",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/reverselunge.jpeg?w=700&quality=86&strip=all",
+      "instructions": "Stand with your feet hip-width apart, holding a dumbbell in each hand.\nStep out on a diagonal with one leg, and lower down into a lunge until your rear knee nearly touches the floor and your front thigh is parallel.\nStep forward with your rear leg, then step out to the side again, creating a zig-zag pattern."
+    },
+    {
+      "id": 62,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Dumbbell Deficit Sumo Squat",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/sumo_deficit_squat-1280.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Place a 75- to 100-lb dumbbell standing up in between two aero steps or benches.\nPlace a foot on either, standing above the dumbbell.\nPosition your feet so they’re just outside your hips and rotated out.\nSquat down, and place your hands under the top of the dumbbell.\nRise, and lift the weight, keeping your arms fully extended.\nWhen you lower back down, stop just before the dumbbell touches the floor."
+    },
+    {
+      "id": 63,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Barbell Back Squat",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/pause_squat_main.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Load a bar with 85-100% of your bodyweight.\nPlace the barbell across the middle of your traps, and pinch your shoulder blades together.\n“Inhale, contracting your abs tight, then lower into a squat,” Antuna says.\n“Then drive back up pushing through your big toe and heel, exhaling at the top.”"
+    },
+    {
+      "id": 64,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Leg Extensions",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/gettyimages-175406447.jpg?w=700&quality=78&strip=all",
+      "instructions": "Make sure to find the right seating on the leg extension machine for your height first.\nPlace the bar between mid-shin and the top of your ankle.\nAs you lift the bar, don’t kick your legs up.\nControl each rep, and hold slightly at the top."
+    },
+    {
+      "id": 65,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Dumbbell Walking Lunge",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/_main_dblunge.jpg?w=1200&quality=86&strip=all",
+      "instructions": "You’ll need an area of at least 20 feet. (If you don’t have the space, use a treadmill.\nJust keep the speed around 2.5/3.)\nHold a dumbbell in each hand.\nPull your shoulder blades back, engage your core, and squeeze your triceps to keep your arms from swinging.\nStep into a forward lunge, and start walking, alternating sides."
+    },
+    {
+      "id": 66,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Dumbbell Reverse Lunge to Stepup",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/db-stepup-the-30-best-legs-exercises-of-all-time.jpg?w=700&quality=86&strip=all",
+      "instructions": "Hold dumbbells in both hands (25-35lbs/50-70lbs total).\nStand facing a bench. Step back into a reverse lunge.\nAs you come up from the lunge, step onto the bench with the same working leg.\nStep down, then lunge back with the opposite leg, coming back up, and immediately transitioning into a step up."
+    },
+    {
+      "id": 67,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Weighted Jump Squat",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/dumbbell-jump-squat-1280.jpg?w=700&quality=86&strip=all",
+      "instructions": "Put on a 20-lb weight vest or hold dumbbells to power up a bodyweight jump squat. Stand with feet shoulder-width apart. Drop into a squat. “Inhale, then drive through the floor and jump up for as much height as possible,” Antuna says. “Exhale, then land on the balls of your feet and immediately drop back into the squat.”"
+    },
+    {
+      "id": 68,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Leg Press",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/exercise-landscapelegpress2.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Adjust the seat of a leg press machine so your hips are situated under your knees, and your knees are aligned with your feet.\nRemove the safeties, and lower your knees toward your chest until they’re bent 90°, then press back up.\nBe careful not to go too low, though. “I always worry about the lower back, so be mindful, and keep these to a minimum in your regimen.”"
+    },
+    {
+      "id": 69,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Barbell Box Squat",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/box_squat_main_0.jpg?w=700&quality=86&strip=all",
+      "instructions": "Set a box behind a squat rack or cage.\nYou want the height to be such that when you squat down, the creases of your hips are below your knees.\nGrasp the bar with a wide grip.\nSqueeze your shoulder blades together, and lift the bar out of the rack.\n“Come down as slow as possible in the concentric motion,” Bangkuai says.\n“As soon as you touch the box, explode up, maintaining a tight core to protect your lower back.”\nMake sure your knees stay pointing out as well during the motion."
+    },
+    {
+      "id": 70,
+      "type": "lowerBody",
+      "muscleGroup": "quads",
+      "workoutName": "Wall Sit",
+      "image": "https://www.mensjournal.com/wp-content/uploads/mf/swiss-ball-wall_squat-the-30-best-legs-exercises-of-all-time.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Put your back against a Swiss ball.\nSlide down until your thighs are parallel to the floor, like you’re sitting in an imaginary chair.\nHold this position.\nYou can also complete with weight plates stacked on your legs, holding a medicine ball, or squeezing a medicine ball between your thighs."
+    },
+    {
+      "id": 71,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Jumping Jack",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/JumpingJacks1.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Stand with your feet together and arms at your sides.\nJump and spread your legs outside shoulder width as you clap your hands overhead.\nJump and return your hands and feet to the starting position."
+    },
+    {
+      "id": 72,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Seated Calf Raise (Toes Out)",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/SeatedCalfRaiseToesOut1.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Use a seated calf raise machine or sit on a bench and rest the balls of your feet on a block or step (and hold dumbbells on your thighs for resistance).\nYour knees should be bent 90 degrees and your toes turned out about 15 degrees.\nAllow your heels to drift toward the floor until you feel a stretch in your calves.\nNow drive the balls of your feet into the platform and raise your heels as high as possible."
+    },
+    {
+      "id": 73,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Seated Calf Raise (Toes Neutral)",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/SeatedCalfRaiseToesNeutral1.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Use a seated calf raise machine or sit on a bench and rest the balls of your feet on a block or step (and hold dumbbells on your thighs for resistance).\nYour knees should be bent 90 degrees and your toes pointing straight ahead.\nAllow your heels to drift toward the floor until you feel a stretch in your calves.\nNow drive the balls of your feet into the platform and raise your heels as high as possible. "
+    },
+    {
+      "id": 74,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Seated Calf Raise (Toes In)",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/SeatedCalfRaiseToesIn1.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Use a seated calf raise machine or sit on a bench and rest the balls of your feet on a block or step (and hold dumbbells on your thighs for resistance).\nYour knees should be bent 90 degrees and your toes turned inward 15 degrees.\nAllow your heels to drift toward the floor until you feel a stretch in your calves.\nNow drive the balls of your feet into the platform and raise your heels as high as possible. "
+    },
+    {
+      "id": 75,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Ankle Mobilization",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/AnkleMobilization1.jpg?w=700&quality=86&strip=all",
+      "instructions": "Place your toes on a mat or block so they’re elevated above your heels.\nBend one knee, pushing it forward so you feel a stretch in your calf.\nDraw your leg back.\nRepeat this motion for the desired number of reps, and then switch legs."
+    },
+    {
+      "id": 76,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Single-Leg Calf Raise",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/SingleLegCalfRaise1.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Stand on a block or step with one leg. Keep your weight resting on the ball of your foot.\nWrap your free foot around the back of the working leg.\nAllow your body to sink toward the floor and stretch your calf.\nHold for one second and then drive the ball of your foot into the surface as you raise your heel up.\nHold the top position for two seconds."
+    },
+    {
+      "id": 77,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Hole Calf Raise",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/HoleCalfRaise1.jpg?w=700&quality=86&strip=all",
+      "instructions": "Stand on a block or step with feet shoulder-width apart and toes turned out. Lower yourself into the bottom position of a squat (called “the hole”).\nPerform a calf raise, coming up as high as you can on the balls of your feet without extending your hips or legs."
+    },
+    {
+      "id": 78,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Seated Calf Raise Machine",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/SeatedCalfRaiseMachine1.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Use a seated calf raise machine or sit on a bench and rest the balls of your feet on a block or step (and hold dumbbells on your thighs for resistance).\nPerform a calf raise as described above, but with hips and knees bent 90 degrees."
+    },
+    {
+      "id": 79,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Bosu Ball Squat",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/BosuBallSquat1.jpg?w=700&quality=78&strip=all",
+      "instructions": "Place a Bosu ball dome-side down.\nCarefully stand on the ball and get your balance.\nSlowly lower into a squat under control.\nSlowly raise yourself up. That’s one rep."
+    },
+    {
+      "id": 80,
+      "type": "lowerBody",
+      "muscleGroup": "calf",
+      "workoutName": "Standing Calf Raise",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/01/StandingCalfRaise1.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Use a standing calf raise machine or stand on a block or step with a dumbbell in one hand. With your free hand, hold onto something sturdy for support.\nLower your heels toward the floor until you feel a stretch in your calves.\nDrive the balls of your feet into the footplate and contract your calves, raising your heels as high as possible. Control the descent on each rep."
+    },
+    {
+      "id": 81,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Barbell Hip Thrust",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/04/1380-barbell-hip-thrust.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Rest your upper back on a bench and sit on the floor with legs extended.\nRoll a loaded barbell up your thighs until the bar sits on your lap (you may want to place a towel or mat on your hips or attach a pad to the bar for comfort).\nBrace your abs and drive your heels into the floor to extend your hips, raising them until your thighs and upper body are parallel to the floor. "
+    },
+    {
+      "id": 82,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Dumbbell Deficit Reverse Lunge",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/04/1380-one-arm-deficit-reverse-lunge.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Grasp a dumbbell in your right hand and stand on a step or block that raises you a few inches above the floor.\nStep back with your right foot and lower your body until your left thigh is parallel to the floor and your rear knee nearly touches the floor.\nKeep your torso upright. Step forward to return to the starting position."
+    },
+    {
+      "id": 83,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Bulgarian Split Squat",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/04/1380-bulgarian-split-squat.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Hold a bar on the backs of your shoulders as if to squat.\nRest the top of your left foot on a bench or box behind you so that your back knee is bent 90 degrees. Bend your hips and right knee to lower your body until your rear knee nearly touches the floor. Keep your torso upright. If you don’t want to use a barbell, you can hold dumbbells at your sites."
+    },
+    {
+      "id": 84,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Sumo Romanian Deadlift",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/04/1380-sumo-rdl.jpg?w=700&quality=86&strip=all",
+      "instructions": "Stand with your feet outside shoulder-width and toes turned out about 15 degrees.\nBend your hips back and let your knees bend as needed until you can grasp the bar at shoulder-width.\nKeeping your lower back in its natural arch, push your hips forward to raise the bar to lockout.\nTo begin each subsequent rep, push your hips back and lower the bar to mid-shin level.\nDo not bend your knees more and make it a deadlift—the movement must come almost entirely from your hips."
+    },
+    {
+      "id": 85,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Barbell Glute Bridge",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/04/1380-glute-bridge.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Lie on your back on the floor with legs extended.\nRoll the bar up your thighs until the bar sits on your lap (you may want to place a towel on your hips or attach a pad to the bar for comfort).\nBrace your abs and drive your heels into the floor to extend your hips, raising them until they’re in line with your torso.\nSimply slide your body under the bar after you’ve rested, and begin the glute bridges."
+    },
+    {
+      "id": 86,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Barbell Squat",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/04/1380-squat.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Set up in a squat rack or cage.\nGrasp the bar as far apart as is comfortable and step under it.\nSqueeze your shoulder blades together and nudge the bar out of the rack.\nStep back and stand with your feet shoulder-width and your toes turned slightly outward.\nTake a deep breath and bend your hips and then knees to lower your body as far as you can without losing the arch in your lower back.\nPush your knees outward as you descend.\nExtend your hips to come back up, continuing to push your knees outward."
+    },
+    {
+      "id": 87,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Side-Lying Clam",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/04/1380-side-lying-clam-raise.jpg?w=700&quality=86&strip=all",
+      "instructions": "Lie on your side on the floor and bend your knees 90 degrees.\nYour knees and feet should be stacked.\nPlace one hand on your glutes and push through your heel as you rotate your hip open, raising your knee until it points to the ceiling.\nThe movement should look like a clamshell opening."
+    },
+    {
+      "id": 88,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Suspension Trainer Single-Leg Glute Bridge",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/04/1380-glute-bridge-suspension.jpg?w=700&quality=86&strip=all",
+      "instructions": "Attach the suspension trainer to a sturdy overhead object and lengthen one handle so it’s at about knee height.\nLie on your back on the floor and place the heel of your left foot in the foot cradle.\nBend your left knee 90 degrees and extend your right leg on the floor.\nBrace your abs and contract your glutes to bridge your hips off the floor while simultaneously lifting your right leg in the air until it’s in line with your left thigh."
+    },
+    {
+      "id": 89,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Suspension Trainer Bulgarian Split Squat",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2018/04/1380-bulgarian-split-squat-suspension-trainer.jpg?w=1200&quality=86&strip=all",
+      "instructions": "Use the same setup as you did for the single-leg glute bridge, but stand facing away from the suspension trainer and rest your left foot in the foot cradle behind you.\nMake sure your right foot is lunge-length in front of the trainer. Bend your hips and knees to lower your body until your rear knee nearly touches the floor.\nHold on to something for support if you feel you can’t balance safely.\nKeep your torso upright—don’t bend over."
+    },
+    {
+      "id": 90,
+      "type": "lowerBody",
+      "muscleGroup": "glutes",
+      "workoutName": "Dumbbell Stepup",
+      "image": "https://www.mensjournal.com/wp-content/uploads/2020/05/Stepup-1.jpg?w=700&quality=86&strip=all",
+      "instructions": "Stand perpendicular to a bench or other elevated surface that’ll put your thigh parallel to the floor when you step on it.\nHold a dumbbell in each hand and step up onto the bench, leaving your trailing leg hanging of.\nDrive through your front heel to stand.\nPause briefly, then slowly lower to starting position.\nYou can also stand parallel to the bench and perform lateral dumbbell stepups, and even add a jump to either variation driving through your planted foot and landing softly on the trail leg."
+    }
+  ]
+}

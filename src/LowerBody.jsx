@@ -6,8 +6,7 @@ function LowerBody () {
                 <option value="glutes">Glutes</option>
                 <option value="hamstrings">Hamstrings</option>
                 <option value="quads">Quads</option>
-                <option value="calfs">Calfs</option>
-                <option value="toes">Toes</option>
+                <option value="calfs">Calfs</option>                
             </select> <br />
             <input type="search" name="search"/>
             <div className="workoutList">
