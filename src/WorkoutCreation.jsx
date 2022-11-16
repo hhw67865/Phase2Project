@@ -80,20 +80,22 @@ function WorkoutCreation ({deleteRoutine,workoutData, focus, routineList, setRou
     
     
     return (
-        <div>
-            <h2>Workout Routine</h2>
-            <form onSubmit={handleSubmit}>
-                <input type="text" name="workoutName" onChange={handleFormData} value={formData.workoutName}/>
-                <input type="submit"/>
-            </form>
-            <div id="checklist">
-                {routineListArray}
-                {/* <ChecklistItem workoutName="Chest bro"/> */}
+        <div className="routineContainer">
+            <div className="routine">
+                <h2>Workout Routine</h2>
+                <form onSubmit={handleSubmit}>
+                    <input type="text" name="workoutName" onChange={handleFormData} value={formData.workoutName}/>
+                    <input type="submit"/>
+                </form>
+                <div id="checklist">
+                    {routineListArray}
+                    {/* <ChecklistItem workoutName="Chest bro"/> */}
+                </div>
             </div>
             <div id="suggestions">
-                <h2>Suggestions</h2>                
+                <h2 className="suggestions">Suggestions</h2>                
                 {workoutDataArray}
-                <button onClick={handleSuggestions}>More Suggestions</button>
+                <button className="suggestions_btn" onClick={handleSuggestions}>More Suggestions</button>
             </div>
 
         </div>

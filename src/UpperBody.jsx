@@ -29,7 +29,7 @@ function UpperBody ({workoutData, handleAddRoutine}) {
 
     return (
         <>
-            <h1>Upper Body Workouts</h1>
+            <h1 className="pageTitle">Upper Body Workouts</h1>
             <select name="upperbody" id="upperbody" onChange={handleSort}>
                 <option value="all">All</option>
                 <option value="chest">Chest</option>

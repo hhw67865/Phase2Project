@@ -3,13 +3,14 @@ import {NavLink} from 'react-router-dom'
 
 function Navbar () {
     return (
-        <div className='navbar'>
-            <NavLink to="/">Logo</NavLink> <br />
-            <NavLink to="/upperbody">Upper Body Workouts</NavLink><br />
-            <NavLink to="/lowerbody">Lower Body Workouts</NavLink><br />
-            <NavLink to="/core">Core Workouts</NavLink><br />
-            <NavLink to="/back">Back Workouts</NavLink><br />
-        </div>
+        
+          <ul className='nav'>
+            <li><span><NavLink to="/"><img className='imglogo' src="https://images-platform.99static.com/Lw8CyZQrGrnlyPa-QHw8p4Tn7Nw=/200x200:1800x1800/500x500/top/smart/99designs-contests-attachments/121/121893/attachment_121893514" alt="logo" /></NavLink></span></li>
+            <li><span><NavLink to="/upperbody">Upper Body Workouts</NavLink></span></li>
+            <li><span><NavLink to="/lowerbody">Lower Body Workouts</NavLink></span></li>
+            <li><span> <NavLink to="/core">Core Workouts</NavLink></span></li>
+            <li><span> <NavLink to="/back">Back Workouts</NavLink></span></li>
+          </ul>
         
         
     )
@@ -18,13 +19,11 @@ function Navbar () {
 export default Navbar
 
 
-// <NavLink
-// to="/about"
-// exact
-// style={linkStyles}
-// activeStyle={{
-//   background: "darkblue",
-// }}
-// >
-// About
-// </NavLink>
+// <nav>
+//   <ul>
+//     <li><span>Home</span></li>
+//     <li><span>Products</span></li>
+//     <li><span>Services</span></li>
+//     <li><span>Contact</span></li>
+//   </ul>
+// </nav> 

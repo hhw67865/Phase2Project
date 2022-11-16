@@ -29,7 +29,7 @@ function LowerBody ({workoutData, handleAddRoutine}) {
 
     return (
         <>
-            <h1>Lower Body Workouts</h1>
+            <h1 className="pageTitle">Lower Body Workouts</h1>
             <select name="lowerbody" id="lowerbody" onChange={handleSort}>
                 <option value="all">All</option>
                 <option value="glutes">Glutes</option>

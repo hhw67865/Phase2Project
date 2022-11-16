@@ -12,7 +12,7 @@ function Back ({workoutData, handleAddRoutine}) {
 
     return (
         <>
-            <h1>Back Workouts</h1>
+            <h1 className="pageTitle">Back Workouts</h1>
             <input type="search" name="search"/>
             <div className="workoutList">
                 {backArray}

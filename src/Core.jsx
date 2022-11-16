@@ -12,7 +12,7 @@ function Core ({workoutData, handleAddRoutine}) {
     })
     return (
         <>
-            <h1>Core Workouts</h1>            
+            <h1 className="pageTitle">Core Workouts</h1>            
             <input type="search" name="search"/>
             <div className="workoutList">
                 {coreArray}

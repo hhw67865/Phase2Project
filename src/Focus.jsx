@@ -7,7 +7,7 @@ function Focus ({setFocus}) {
     }
 
     return (
-        <div>
+        <div className="focusDiv">
             <h2>What part of your body do you want to work on?</h2>
             <select name="bodypart" id="bodypartDropdown" onChange={handleFocus}>
                 <option value="Workout">Workouts</option>
