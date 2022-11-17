@@ -37,7 +37,7 @@ function BackCard ({workout, handleClick}) {
 
 
 
-const WorkoutCard = ({workout, handleAddRoutine}) => {
+const WorkoutCard = ({workout, handleAddRoutine, length}) => {
 
   const [front, setFront] = useState(true)
 
@@ -46,7 +46,7 @@ const WorkoutCard = ({workout, handleAddRoutine}) => {
   }
   
   return (
-    <div className="workout_card">
+    <div className="workout_card" style={length===1?{maxWidth:"100%"}:{maxWidth:"30%"}}>
       {front?<FrontCard handleClick={handleClick} workout={workout} handleAddRoutine={handleAddRoutine}/>:<BackCard handleClick={handleClick} workout={workout}/>}
     </div>
   );

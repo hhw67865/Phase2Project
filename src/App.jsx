@@ -14,6 +14,7 @@ const routineUrl = "http://localhost:3001/routineList"
 
 function App () {
 
+  const [searchQuery, setSearchQuery] = useState("")
   const [workoutData, setWorkoutData] = useState([])
   const [routineList, setRoutineList] = useState([])
 
@@ -78,15 +79,15 @@ function App () {
 
   return(
     <>
-      <Navbar/>
+      <Navbar setSearchQuery={setSearchQuery}/>
 
       <div className="main-container">
         <Routes>
-          <Route path="/" element={<Home deleteRoutine={deleteRoutine} handleAddRoutine={handleAddRoutine} setRoutineList={setRoutineList} routineList={routineList} workoutData={workoutData}/> }/>
-          <Route path="/upperbody" element={<UpperBody handleAddRoutine={handleAddRoutine} workoutData={workoutData}/>}/>
-          <Route path="/lowerbody" element={<LowerBody handleAddRoutine={handleAddRoutine} workoutData={workoutData}/>}/>
-          <Route path="/core" element={<Core handleAddRoutine={handleAddRoutine} workoutData={workoutData}/>}/>
-          <Route path="/back" element={<Back handleAddRoutine={handleAddRoutine} workoutData={workoutData}/>}/>
+          <Route path="/" element={<Home setSearchQuery={setSearchQuery} deleteRoutine={deleteRoutine} handleAddRoutine={handleAddRoutine} setRoutineList={setRoutineList} routineList={routineList} workoutData={workoutData}/> }/>
+          <Route path="/upperbody" element={<UpperBody setSearchQuery={setSearchQuery} searchQuery={searchQuery} handleAddRoutine={handleAddRoutine} workoutData={workoutData}/>}/>
+          <Route path="/lowerbody" element={<LowerBody setSearchQuery={setSearchQuery} searchQuery={searchQuery} handleAddRoutine={handleAddRoutine} workoutData={workoutData}/>}/>
+          <Route path="/core" element={<Core setSearchQuery={setSearchQuery} searchQuery={searchQuery} handleAddRoutine={handleAddRoutine} workoutData={workoutData}/>}/>
+          <Route path="/back" element={<Back setSearchQuery={setSearchQuery} searchQuery={searchQuery} handleAddRoutine={handleAddRoutine} workoutData={workoutData}/>}/>
           <Route path="*" element={<div>404 not found</div>}/>
   
         </Routes>

@@ -2,7 +2,7 @@ import ChecklistItem from "./ChecklistItem"
 import SuggestionItem from "./SuggestionItem"
 import {useState, useEffect} from 'react'
 
-function WorkoutCreation ({deleteRoutine,workoutData, focus, routineList, setRoutineList,handleAddRoutine}) {
+function WorkoutCreation ({deleteRoutine,workoutData, focus, routineList, setRoutineList,handleAddRoutine, setSearchQuery}) {
 
     const [randomArray, setRandomArray] = useState([])
     
@@ -44,6 +44,7 @@ function WorkoutCreation ({deleteRoutine,workoutData, focus, routineList, setRou
                 key = {eachWorkout.id}
                 eachWorkout = {eachWorkout}
                 handleAddRoutine= {handleAddRoutine}
+                setSearchQuery={setSearchQuery}
             />
         )
     })
@@ -73,29 +74,30 @@ function WorkoutCreation ({deleteRoutine,workoutData, focus, routineList, setRou
     }
 
     
-
     
 
-
+    
     
     
     return (
         <div className="routineContainer">
             <div className="routine">
                 <h2>Workout Routine</h2>
-                <form onSubmit={handleSubmit}>
-                    <input type="text" name="workoutName" onChange={handleFormData} value={formData.workoutName}/>
-                    <input type="submit"/>
+                <hr/>
+                <form className="flex-form" onSubmit={handleSubmit}>
+                    <input type="text" name="workoutName" id="inputRoutine" onChange={handleFormData} value={formData.workoutName}/>
+                    <input type="submit" value="Add workout"/>
                 </form>
-                <div id="checklist">
+                <div id="checklist" className="website_checklist">
                     {routineListArray}
                     {/* <ChecklistItem workoutName="Chest bro"/> */}
                 </div>
             </div>
             <div className="suggestions">
-                <h2>Suggestions</h2>                
+                <h2>Suggestions</h2>    
+                <hr/>            
                 {workoutDataArray}
-                <button className="suggestions_btn" onClick={handleSuggestions}>More Suggestions</button>
+                <button style={focus===""?{display:"none"}:{display: "inline-block"}} className="suggestions_btn" onClick={handleSuggestions}>More Suggestions</button>
             </div>
 
         </div>

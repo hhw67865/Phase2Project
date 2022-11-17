@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import WorkoutCard from './WorkoutCard'
 
-function UpperBody ({workoutData, handleAddRoutine}) {
+function UpperBody ({workoutData, handleAddRoutine, setSearchQuery, searchQuery}) {
 
     const [sort, setSort] = useState("all")
     const [buttonData,setButtonData] = useState({
@@ -10,6 +10,8 @@ function UpperBody ({workoutData, handleAddRoutine}) {
         arms: false
         
     })
+
+    
 
     const upperBodyWorkouts = workoutData.filter(workout=>{
         return workout.type==="upperBody"
@@ -22,9 +24,15 @@ function UpperBody ({workoutData, handleAddRoutine}) {
         return workout.muscleGroup===sort
     })
 
-    const upperArray = filteredUpperBodyWorkouts.map((workout)=>{
+    const filteredUpperBodyWorkouts2 = filteredUpperBodyWorkouts.filter(workout=>{
+        return workout.workoutName.toLowerCase().includes(searchQuery.toLowerCase())
+    })
+
+
+
+    const upperArray = filteredUpperBodyWorkouts2.map((workout)=>{
         return (
-            <WorkoutCard  key={workout.id} handleAddRoutine={handleAddRoutine} workout={workout}/>
+            <WorkoutCard length={filteredUpperBodyWorkouts2.length} key={workout.id} handleAddRoutine={handleAddRoutine} workout={workout}/>
         )
     })
 
@@ -54,17 +62,22 @@ function UpperBody ({workoutData, handleAddRoutine}) {
 
     }
 
+    function handleSearch(e){
+        setSearchQuery(e.target.value)
+    }
+    
     
 
     return (
         <>
             <h1 className="pageTitle">Upper Body Workouts</h1>
             <div className='buttonHolder'>
-                <button class="button-33" style={buttonData.chest?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleSort} value="chest" role="button">Chest</button>
-                <button class="button-33" style={buttonData.shoulders?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleSort} value="shoulders" role="button">Shoulders</button>
-                <button class="button-33" style={buttonData.arms?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleSort} value="arms" role="button">Arms</button>
+                <button className="button-33" style={buttonData.chest?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleSort} value="chest" role="button">Chest</button>
+                <button className="button-33" style={buttonData.shoulders?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleSort} value="shoulders" role="button">Shoulders</button>
+                <button className="button-33" style={buttonData.arms?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleSort} value="arms" role="button">Arms</button>
                 
-            </div>            
+            </div>     
+            <input onChange={handleSearch} type="text" name="search" value={searchQuery} placeholder='Search...'/>       
             <div className="workoutList">
                 {upperArray}
             </div>

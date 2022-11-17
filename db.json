@@ -1,10 +1,5 @@
 {
-  "routineList": [
-    {
-      "workoutName": "Dumbbell Single-arm Row",
-      "id": 1
-    }
-  ],
+  "routineList": [],
   "workouts": [
     {
       "id": 1,
