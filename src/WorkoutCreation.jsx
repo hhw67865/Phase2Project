@@ -92,8 +92,8 @@ function WorkoutCreation ({deleteRoutine,workoutData, focus, routineList, setRou
                     {/* <ChecklistItem workoutName="Chest bro"/> */}
                 </div>
             </div>
-            <div id="suggestions">
-                <h2 className="suggestions">Suggestions</h2>                
+            <div className="suggestions">
+                <h2>Suggestions</h2>                
                 {workoutDataArray}
                 <button className="suggestions_btn" onClick={handleSuggestions}>More Suggestions</button>
             </div>

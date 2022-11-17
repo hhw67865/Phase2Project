@@ -4,6 +4,12 @@ import WorkoutCard from './WorkoutCard'
 function UpperBody ({workoutData, handleAddRoutine}) {
 
     const [sort, setSort] = useState("all")
+    const [buttonData,setButtonData] = useState({
+        chest:false,
+        shoulders: false,
+        arms: false
+        
+    })
 
     const upperBodyWorkouts = workoutData.filter(workout=>{
         return workout.type==="upperBody"
@@ -23,19 +29,42 @@ function UpperBody ({workoutData, handleAddRoutine}) {
     })
 
     function handleSort(e) {
-        setSort(e.target.value)
+        if (e.target.value===sort) {
+            setSort("all")
+            setButtonData({
+                chest:false,
+                shoulders: false,
+                arms: false
+               
+            })
+        }
+        else {
+            setSort(e.target.value)
+            setButtonData(prev=>{
+                
+                const freshData={
+                    chest:false,
+                    shoulders: false,
+                    arms: false
+                }
+            
+                return {...freshData,[e.target.value]:true}
+            })
+        }
+
     }
+
     
 
     return (
         <>
             <h1 className="pageTitle">Upper Body Workouts</h1>
-            <select name="upperbody" id="upperbody" onChange={handleSort}>
-                <option value="all">All</option>
-                <option value="chest">Chest</option>
-                <option value="shoulders">Shoulders</option>
-                <option value="arms">Arms</option>
-            </select> <br />
+            <div className='buttonHolder'>
+                <button class="button-33" style={buttonData.chest?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleSort} value="chest" role="button">Chest</button>
+                <button class="button-33" style={buttonData.shoulders?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleSort} value="shoulders" role="button">Shoulders</button>
+                <button class="button-33" style={buttonData.arms?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleSort} value="arms" role="button">Arms</button>
+                
+            </div>            
             <div className="workoutList">
                 {upperArray}
             </div>

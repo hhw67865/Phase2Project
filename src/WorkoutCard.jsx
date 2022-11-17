@@ -2,9 +2,16 @@ import {useState} from 'react'
 
 function FrontCard ({workout, handleAddRoutine, handleClick}) {
 
+  const [added,setAdded] = useState(false)
+
+  
 
   function handleAdd() {
     handleAddRoutine(workout.workoutName)
+    setAdded(prev=>{
+      setTimeout(()=>setAdded(false),2000)
+      return true
+    })
   }
 
   return (
@@ -13,7 +20,7 @@ function FrontCard ({workout, handleAddRoutine, handleClick}) {
         <h3 className="card__header" style={{textAlign: "center"}}>{workout.workoutName}</h3>
         <img className="card__img" src={workout.image} alt={workout.workoutName} />
       </div>
-      <button className="card__btn" onClick={handleAdd}>Add to Routine</button>
+      <button className="card__btn" onClick={handleAdd}>{added? <img style={{height: "2rem"}} src='https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678134-sign-check-512.png' alt='check'></img>:"Add to Routine"}</button>
     </>
   )
 }

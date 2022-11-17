@@ -1,5 +1,10 @@
 {
-  "routineList": [],
+  "routineList": [
+    {
+      "workoutName": "Dumbbell Single-arm Row",
+      "id": 1
+    }
+  ],
   "workouts": [
     {
       "id": 1,
@@ -70,7 +75,7 @@
       "type": "upperBody",
       "muscleGroup": "chest",
       "workoutName": "Pullover",
-      "image": "",
+      "image": "https://www.verywellfit.com/thmb/9TjZz5XCD7m55wzI1E61Bn_XBZY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/95--Dumbbell-PulloverGIF-0a01af6ebf634a7aba793eecf824a383.gif",
       "instructions": "Lie on your back on the floor and hold one dumbbell overhead with both hands.\nPress the weight over your chest, then reach back over your head, bending your elbows only slightly.\nContinue until you feel a stretch in your lats, then pull the dumbbell back over your chest.\nTake a deep breath every time you lower the dumbbell behind you."
     },
     {
@@ -262,7 +267,7 @@
       "type": "core",
       "muscleGroup": "core",
       "workoutName": "Deadbug",
-      "image": "https://media.hearstapps.com/loop/video/deadbug-2-1562621376.mp4",
+      "image": "https://thumbs.gfycat.com/DecentSarcasticAmethystsunbird-size_restricted.gif",
       "instructions": "Lie on your back with your arms extended over your chest and legs bent 90 degrees (knees above hips).\nKeep your low back pressed to the floor, brace your core, then slowly and simultaneously extend and lower your right leg until your heel nearly touches floor and your left arm until your hand nearly touches floor overhead.\nPause, then return to start and repeat with the opposite leg and arm. That’s one rep. Complete 10 reps."
     },
     {
@@ -270,7 +275,7 @@
       "type": "core",
       "muscleGroup": "core",
       "workoutName": "Glute Bridge March",
-      "image": "https://media.hearstapps.com/loop/video/glute-bridge-march-2-1562621474.mp4",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/workouts/2016/08/glutebridgemarch-1472218794.gif",
       "instructions": "Lie on your back with your legs bent, heels under knees, feet flat on the floor.\nExtend your arms over your chest, palms facing. Raise your hips so your body forms a straight line from your shoulders to your knees.\nBrace your abs and lift your right knee over your hip, maintaining the 90-degree angle of that leg.\nHold for a moment, then lower your right foot. Repeat with the left. That's one rep. Complete 12 reps."
     },
     {
@@ -278,7 +283,7 @@
       "type": "core",
       "muscleGroup": "core",
       "workoutName": "Side Plank",
-      "image": "https://media.hearstapps.com/loop/video/side-plank-2-1562621501.mp4",
+      "image": "https://media1.popsugar-assets.com/files/thumbor/1ghv6Xy7ywGC3cGMT2sZXBPwiKs/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/04/28/911/n/1922398/9ac63f9c95092565_SidePlankMarch.gif",
       "instructions": "Lay on your side with your right forearm flat on the floor, elbow under your shoulder, and both legs extended, forming a straight line from your head to your feet. (Feet can either be staggered for more stability, or stacked for more of a challenge.)\nEngage your core and lift your hips off the floor. Hold for 30 seconds on each side."
     },
     {
@@ -286,7 +291,7 @@
       "type": "core",
       "muscleGroup": "core",
       "workoutName": " Bird Dog",
-      "image": "https://media.hearstapps.com/loop/video/bird-dog-2-1562622220.mp4",
+      "image": "https://i0.wp.com/thumbs.gfycat.com/InsignificantPerkyInvisiblerail-size_restricted.gif?w=1155&h=844",
       "instructions": "Get on all fours with your wrists stacked directly under your shoulders and knees under hips.\nKeeping your back flat, core engaged, and a slight bend in your elbows, extend your left arm out in front of you at shoulder height and your right leg straight behind you at hip height.\nWith control, bring your extended leg back underneath you, stopping at your hips, and tap that knee with your opposite hand.\nLower your leg and arm down, then repeat on the opposite side. That's one rep. Complete 10 reps."
     },
     {
@@ -302,7 +307,7 @@
       "type": "core",
       "muscleGroup": "core",
       "workoutName": "Kettlebell Deadbug Pullover",
-      "image": "https://media.hearstapps.com/loop/video/kettlebell-deadbug-pullover-1562622350.mp4",
+      "image": "https://cdn.jackedgorilla.com/wp-content/uploads/2021/10/37351301-Kettlebell-Pullover-3-Month-Position_Back_1080.gif",
       "instructions": "Lie on your back with your legs bent at 90 degrees (knees over hips) and arms extended over your chest holding a kettlebell with both hands. That's your start position.\nPress low back in to floor, brace your core, then slowly and simultaneously extend and lower your right leg until your heel nearly touches floor while you lower the kettlebell overhead until it nearly touches the floor behind you.\nPause, then return to start and repeat on the opposite side. That’s one rep. Complete eight reps."
     },
     {
@@ -310,7 +315,7 @@
       "type": "core",
       "muscleGroup": "core",
       "workoutName": "Kettlebell Bridge Pullover",
-      "image": "https://media.hearstapps.com/loop/video/kettlebell-bridge-pullover-1562622327.mp4",
+      "image": "https://i.pinimg.com/originals/13/aa/8a/13aa8ae3a88c2ed8f1d48be6607b0009.gif",
       "instructions": "Lie on your back with your knees bent and your feet flat on the floor. Hold a kettlebell in both hands, resting on top of your chest.\nRaise your hips so your body forms a straight line from your shoulders to your knees.\nLift the kettlebell into the air over your chest, then slowly lower it behind you until it nearly touches the ground without arching your back or splaying your rib cage.\nEngage your core and return the kettlebell over your chest. That's one rep. Complete eight reps."
     },
     {

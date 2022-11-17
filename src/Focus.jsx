@@ -1,21 +1,52 @@
+import {useState} from 'react'
 
-function Focus ({setFocus}) {
+function Focus ({setFocus, focus}) {
+
+    const [buttonData,setButtonData] = useState({
+        upperBody:false,
+        lowerBody: false,
+        core: false,
+        back: false
+    })
 
 
     function handleFocus (e) {
-        setFocus(e.target.value)
+        if (e.target.value===focus) {
+            setFocus("")
+            setButtonData({
+                upperBody:false,
+                lowerBody: false,
+                core: false,
+                back: false
+            })
+        }
+        else {
+            setFocus(e.target.value)
+            setButtonData(prev=>{
+                
+                const freshData={
+                    upperBody:false,
+                    lowerBody: false,
+                    core: false,
+                    back: false
+                }
+            
+                return {...freshData,[e.target.value]:true}
+            })
+        }
+        
+        
     }
 
     return (
         <div className="focusDiv">
             <h2>What part of your body do you want to work on?</h2>
-            <select name="bodypart" id="bodypartDropdown" onChange={handleFocus}>
-                <option value="Workout">Workouts</option>
-                <option value="upperBody">Upper Body</option>
-                <option value="core">Core</option>
-                <option value="lowerBody">Lower Body</option>
-                <option value="back">Back</option>  
-            </select>
+            <div className='buttonHolder'>
+                <button class="button-33" style={buttonData.upperBody?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleFocus} value="upperBody" role="button">Upper Body</button>
+                <button class="button-33" style={buttonData.core?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleFocus} value="core" role="button">Core</button>
+                <button class="button-33" style={buttonData.lowerBody?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleFocus} value="lowerBody" role="button">Lower Body</button>
+                <button class="button-33" style={buttonData.back?{fontWeight:"800"}:{fontWeight:"400"}} onClick={handleFocus} value="back" role="button">Back</button>
+            </div>           
 
 
         </div>

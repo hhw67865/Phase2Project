@@ -9,9 +9,9 @@ function SuggestionItem ({eachWorkout,handleAddRoutine}) {
 
     return (
         <div>
-            <h3>{eachWorkout.workoutName}</h3>
+            <p>{eachWorkout.workoutName}</p>
             <img src={eachWorkout.image} alt={eachWorkout.name} style={{height:"100px"}}/>            
-            <p>{eachWorkout.instructions}</p>
+            
             <button onClick={handleAdd}>Add to Routine</button>
         </div>
     )
